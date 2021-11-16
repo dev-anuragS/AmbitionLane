@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* BODY COMMON*/
+
+.bodyContainer{
+    margin-top:20px;
+    padding:10px;
+    text-align: center;
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

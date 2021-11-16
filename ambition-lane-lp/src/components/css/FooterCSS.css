@@ -1,0 +1,10 @@
+.footLink{
+    color: #fff !important;
+    background-color: rgba(179, 77, 77, 0) !important;
+}
+
+.footLink:hover{
+    color: #000 !important;
+    background-color: #f8f9fa !important;
+    border-color: #f8f9fa;
+}

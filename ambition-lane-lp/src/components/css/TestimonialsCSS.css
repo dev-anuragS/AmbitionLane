@@ -1,0 +1,28 @@
+#testimonialsMainContainer{
+    min-height:75vh;
+    /* color:white;
+    background-color: rgba(33,37,41,1); */
+    padding:15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimonialsContainer{
+    /* width:90vw; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width:850px) {
+    #testimonialsContainer{
+        flex-direction: column;
+    }
+}
+
+#testimonialsHeading{
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 7.5vmin;
+}

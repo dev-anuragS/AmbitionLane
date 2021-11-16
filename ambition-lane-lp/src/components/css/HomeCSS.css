@@ -1,0 +1,48 @@
+/* ABOUT */
+
+.aboutContainer{
+    min-height:75vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    /* color:white;
+    background-color: rgba(33,37,41,1); */
+}
+
+#aboutHeading{
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 7.5vmin;
+    margin:15px 0;
+}
+
+#subHead{
+    font-size:1.1rem;
+    font-weight:500;
+}
+
+#aboutBtn{
+    padding:10px;
+    border:2px solid white;
+    border-radius: 5px 15px 5px 10px;
+    background-color: rgba(33,37,41,1);
+    color:white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#aboutBtn:hover{
+    background-color: rgba(33,37,41,.88);
+    color:white;
+    border-color: rgba(33,37,41,1);
+    transition:.1s smooth;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:600px) {
+    #aboutBtn{
+        color:white;
+        background-color: rgba(33,37,41,1);
+    }
+}

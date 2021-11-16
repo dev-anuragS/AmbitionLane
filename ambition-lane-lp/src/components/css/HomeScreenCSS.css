@@ -1,0 +1,60 @@
+.HomeScreenContainer{
+    min-height:70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:25px 10px;
+    background-color: rgba(33,37,41,1);
+    color:white;
+    padding:15px;
+}
+
+#HomeScreenHeading{
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 8.5vmin;
+    margin:15px 0;
+}
+
+#moto{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#HomeScreenSubContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#HomeScreenImg{
+    padding:10px;
+    max-width:50vw;
+}
+
+@media only screen and (max-width:1050px) {
+    #HomeScreenImg{
+        max-width:90vw;
+    }
+    .HomeScreenContainer{
+        flex-direction: column;
+    }
+}
+
+#homeScreenBtn{
+    padding:8px;
+    background-color: rgba(33,37,41,0);
+    color:white;
+    border:2px solid white;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-weight:600;
+}
+
+#homeScreenBtn:hover{
+    background-color: white;
+    color:rgba(33,37,41,1);
+}

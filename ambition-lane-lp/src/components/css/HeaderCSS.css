@@ -1,0 +1,45 @@
+#navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(33,37,41,1);
+    color:white;
+    padding:9px;
+}
+
+.navLinks{
+    font-weight: 700;
+    font-size:1rem;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5);
+    padding:6px 0px;
+    margin: 0px 7px;
+}
+
+.navLinks:hover{
+    color:rgba(255, 255, 255, 0.5);
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    transition-delay: .1s smooth;
+}
+
+.actLink{
+    color:white;
+    border-bottom: 4px solid white;
+}
+
+#logo{
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 1.88rem;
+}
+
+@media only screen and (max-width:650px) {
+    #navbar{
+        flex-direction: column;
+    }
+    .navLinks{
+        font-size: .9rem;
+        margin:0 4px;
+        padding:4px 0;
+    }
+}

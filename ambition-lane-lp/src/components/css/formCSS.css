@@ -1,0 +1,96 @@
+#formContainer{
+    min-height:70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:25px 10px;
+    background-color: rgba(33,37,41,1);
+    color:white;
+    padding:15px;
+}
+
+@media only screen and (max-width:1050px) {
+    #formContainer{
+        flex-direction: column;
+    }
+    #formName,#formEmail,#formMessage{
+        font-size: .9rem;
+    }
+    #formText{
+        font-size: .9rem;
+    }
+}
+
+#contactForm{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color: rgba(33,37,41,1);
+}
+
+#formImage{
+    padding:10px;
+    max-width:90vw;
+}
+
+#formHeading{
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 7.7vmin;
+    margin:15px 0;
+}
+
+#contactForm{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactForm #formName,#formEmail,#formMessage,#formButton{
+    padding:7px;
+    width:300px;
+}
+
+@media only screen and (max-width:400px) {
+    #contactForm #formName,#formEmail,#formMessage,#formButton{
+        width:220px;
+    }
+}
+@media only screen and (max-width:250px) {
+    #contactForm #formName,#formEmail,#formMessage,#formButton{
+        width:170px;
+    }
+}
+
+#formName,#formEmail,#formMessage{
+    border:2px solid white;
+    border-radius:5px 15px 5px 15px; 
+    outline:none;
+    background-color: white;
+    margin-bottom: 5px;
+    color:rgba(33,37,41,1);
+    font-weight: 500;
+}
+
+#formMessage{
+    resize: none;
+}
+
+#formButton{
+    border:2px solid white;
+    outline:none;
+    border-radius:5px 15px 5px 15px; 
+    background-color: transparent;
+    color:white;
+    font-weight:500;
+}
+
+#formButton:hover{
+    background-color: white;
+    color:rgba(33,37,41,1);
+    transition-duration: .4s;
+    font-weight:600;
+}
