@@ -1,0 +1,100 @@
+@import '../css/variables.scss';
+
+#container{
+    min-height:90vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $secondary;
+}
+
+#loginContainer{
+    min-height:80vh;
+    display:flex;
+    width:80vw;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+}
+
+#left{
+    width:50%;
+    height:75vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#right{
+    width:50%;
+    height:80vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $background;
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0,0.2);
+    color:white;
+}
+
+#loginText{
+    font-size:7vmin;
+    font-weight: 800;
+}
+
+#loginForm{
+    display:flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: transparent;
+    border:none;
+    border-bottom:2px solid $secondary;
+    outline:none;
+    margin-bottom:5px;
+    padding:5px;
+    color:$primary;
+}
+
+input:focus{
+    border-color: $primary;
+}
+
+.smallTextLoginForm{
+    font-size:.8rem;
+}
+
+#loginFormBtn{
+    outline:none;
+    border:none;
+    background-color: transparent;
+    border:2px solid $primary;
+    padding:10px;
+    color:$primary;
+    border-radius:25px;
+    font-weight: 600;
+    margin-top:10px;
+}
+
+#loginFormBtn:hover{
+    background-color: $primary;
+    color:$background;
+}
+
+#innerLoginFormDiv{
+    font-size: .8rem;
+    display:flex;
+}
+
+.loginFormLink{
+    color:white;
+    margin:10px 20px;
+    text-decoration: none;
+}
+
+.loginFormLink:hover{
+    color:$primary;
+}
