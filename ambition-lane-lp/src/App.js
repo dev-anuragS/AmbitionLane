@@ -6,7 +6,7 @@ import Service from './components/Service'
 import Contact from './components/Contact'
 import Error404 from './components/Error404'
 import {Switch,Route} from 'react-router-dom';
-import PhoneButton from './components/PhoneButton.jsx'
+import PhoneButton from './components/helperComponents/PhoneButton.jsx'
 
 function App() {
   return (

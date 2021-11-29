@@ -1,12 +1,12 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import HomeScreen from './HomeScreen.jsx'
-import WhyUs from './WhyUs.jsx'
+import HomeScreen from './helperComponents/HomeScreen'
+import WhyUs from './helperComponents/WhyUs.jsx'
 import './css/HomeCSS.css'
-import Carousel from './Carousel.jsx'
-import Products from './Products.jsx'
-import Testimonials from './Testimonials.jsx'
-import FormContact from './FormContact.jsx'
+import Carousel from './helperComponents/Carousel.jsx'
+import Products from './helperComponents/Products.jsx'
+import Testimonials from './helperComponents/Testimonials.jsx'
+import FormContact from './helperComponents/FormContact.jsx'
 
 const Home = () => {
   return (

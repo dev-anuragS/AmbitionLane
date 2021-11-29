@@ -1,6 +1,6 @@
 import React from 'react'
-import aboutWhy from './images/aboutWhy.jpg'
-import './css/HomeScreenCSS.css'
+import aboutWhy from '../images/aboutWhy.jpg'
+import '../css/HomeScreenCSS.css'
 const HomeScreen = () => {
     return (
         <>

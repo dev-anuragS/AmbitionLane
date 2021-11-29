@@ -1,5 +1,5 @@
 import React from 'react'
-import FormContact from './FormContact.jsx'
+import FormContact from './helperComponents/FormContact'
 
 const contact = () => {
     return (

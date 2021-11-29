@@ -1,6 +1,6 @@
 import React from 'react'
-import aboutWhy from './images/aboutWhy.jpg'
-import './css/WhyUsCSS.css'
+import aboutWhy from '../images/aboutWhy.jpg'
+import '../css/WhyUsCSS.css'
 
 const WhyUs = () => {
     return (

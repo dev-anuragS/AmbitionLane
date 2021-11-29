@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import './css/formCSS.css'
-import aboutWhy from './images/aboutWhy.jpg'
+import '../css/formCSS.css'
+import aboutWhy from '../images/aboutWhy.jpg'
 
 const FormContact = () => {
 

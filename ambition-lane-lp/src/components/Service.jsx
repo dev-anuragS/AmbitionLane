@@ -1,7 +1,7 @@
 import React from 'react'
-import Carousel from './Carousel'
-import Testimonials from './Testimonials'
-import Products from './Products'
+import Carousel from './helperComponents/Carousel'
+import Testimonials from './helperComponents/Testimonials'
+import Products from './helperComponents/Products'
 
 const service = () => {
     return (

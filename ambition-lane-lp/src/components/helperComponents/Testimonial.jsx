@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/TestimonialCSS.css'
+import '../css/TestimonialCSS.css'
 
 const Testimonial = (props) => {
     return (
