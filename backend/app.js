@@ -9,6 +9,7 @@ connectDB();
 app.use(express.json());
 app.use(cors());
 
+app.use('/api',require('./routes/auth.js'));
 
 app.listen(8000,()=>{
     console.log('app started at port 8000');
