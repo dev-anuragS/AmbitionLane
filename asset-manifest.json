@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/AmbitionLane/static/css/main.1d9ddebe.chunk.css",
+    "main.js": "/AmbitionLane/static/js/main.8dec0ae6.chunk.js",
+    "main.js.map": "/AmbitionLane/static/js/main.8dec0ae6.chunk.js.map",
+    "runtime-main.js": "/AmbitionLane/static/js/runtime-main.7db542de.js",
+    "runtime-main.js.map": "/AmbitionLane/static/js/runtime-main.7db542de.js.map",
+    "static/js/2.2c870178.chunk.js": "/AmbitionLane/static/js/2.2c870178.chunk.js",
+    "static/js/2.2c870178.chunk.js.map": "/AmbitionLane/static/js/2.2c870178.chunk.js.map",
+    "index.html": "/AmbitionLane/index.html",
+    "static/css/main.1d9ddebe.chunk.css.map": "/AmbitionLane/static/css/main.1d9ddebe.chunk.css.map",
+    "static/js/2.2c870178.chunk.js.LICENSE.txt": "/AmbitionLane/static/js/2.2c870178.chunk.js.LICENSE.txt",
+    "static/media/aboutWhy.e2eebcc2.jpg": "/AmbitionLane/static/media/aboutWhy.e2eebcc2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7db542de.js",
+    "static/js/2.2c870178.chunk.js",
+    "static/css/main.1d9ddebe.chunk.css",
+    "static/js/main.8dec0ae6.chunk.js"
+  ]
+}
