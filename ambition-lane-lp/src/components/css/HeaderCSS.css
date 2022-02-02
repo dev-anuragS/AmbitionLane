@@ -18,7 +18,7 @@
 }
 
 .navLinks:hover{
-    color:rgba(255, 255, 255, 0.5);
+    color:rgba(255, 255, 255, 0.75);
     border-bottom: 4px solid rgba(255, 255, 255, 0.5);
     transition-delay: .1s smooth;
 }
@@ -41,5 +41,14 @@
         font-size: .9rem;
         margin:0 4px;
         padding:4px 0;
+    }
+    .navLinks:hover{
+        /* color:rgba(255, 255, 255, 0.5); */
+        border-bottom:none;
+        transition-delay: .0s smooth;
+    }
+    .actLink{
+        /* color:white; */
+        border-bottom: none;
     }
 }

@@ -13,12 +13,12 @@ const Header = () => {
                     <NavLink activeClassName="actLink" className="navLinks" exact to="/">Home</NavLink>
                     <NavLink activeClassName="actLink" className="navLinks" exact to="/service">Services</NavLink>
                     <NavLink activeClassName="actLink" className="navLinks" exact to="/contact">Contact</NavLink>
-                    <NavLink activeClassName="actLink" className="navLinks" exact to="/login">Login</NavLink>
+                    {/* <NavLink activeClassName="actLink" className="navLinks" exact to="/login">Login</NavLink> */}
                 </div>
                 
                 
                 <div id='links'>
-                    <NavLink activeClassName="actLink" className="navLinks" exact to="/employerLogin">For Employers</NavLink>
+                    {/* <NavLink activeClassName="actLink" className="navLinks" exact to="/employerLogin">For Employers</NavLink> */}
                 </div>
                 
             </div>
