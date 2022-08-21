@@ -8,7 +8,12 @@ const Footer = () => {
 
     const inputEvent = (event) => {
         setEmailData(event.target.value);
-        console.log(emailData);
+    }
+
+    const submitForm=(e)=>{
+        e.preventDefault();
+        // Add logic to save details to a google form for Phase 1
+        alert("Details Submitted Successfully");
     }
 
     return (
@@ -41,7 +46,7 @@ const Footer = () => {
                         ></NavLink>
                     </section>
                     <section className="">
-                        <form action="" onSubmit={() => alert(emailData)}>
+                        <form action="" onSubmit={() => {submitForm}}>
                             <div className="row d-flex justify-content-center">
                                 <div className="col-auto">
                                     <p className="pt-2">

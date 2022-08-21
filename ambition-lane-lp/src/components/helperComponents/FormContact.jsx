@@ -22,7 +22,8 @@ const FormContact = () => {
 
     const submitForm=(e)=>{
         e.preventDefault();
-        alert(formData.name+" "+formData.email+" "+formData.message);
+        // Add logic to save details to a google form for Phase 1
+        alert("Details Submitted Successfully");
     }
 
     return (
