@@ -26,7 +26,7 @@
 #aboutWhyImg{
     padding:10px;
     max-width:50vw;
-    max-width:65vw;
+    max-height:80vh;
 }
 
 @media only screen and (max-width:1050px) {

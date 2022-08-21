@@ -3,7 +3,6 @@ import {NavLink} from 'react-router-dom'
 import HomeScreen from './helperComponents/HomeScreen'
 import WhyUs from './helperComponents/WhyUs.jsx'
 import './css/HomeCSS.css'
-import Carousel from './helperComponents/Carousel.jsx'
 import Products from './helperComponents/Products.jsx'
 import Testimonials from './helperComponents/Testimonials.jsx'
 import FormContact from './helperComponents/FormContact.jsx'
@@ -22,9 +21,9 @@ const Home = () => {
           <NavLink exact to='/contact'><button id='aboutBtn'>Contact Us</button></NavLink>
         </div>
         <WhyUs/>
-        <Carousel/>
-        <Testimonials/>
+        {/* <Carousel/> */}
         <Products/>
+        <Testimonials/>
         <FormContact/>
       </div>
     </>

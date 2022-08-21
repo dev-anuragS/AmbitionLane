@@ -6,8 +6,8 @@ const service = () => {
     return (
         <div className="bodyContainer">
             {/* <Carousel/> */}
-            <Testimonials/>
             <Products/>
+            <Testimonials/>
         </div>
     )
 }
