@@ -46,7 +46,7 @@ const Footer = () => {
                         ></NavLink>
                     </section>
                     <section className="">
-                        <form action="" onSubmit={() => {submitForm}}>
+                        <form action="" onSubmit={submitForm}>
                             <div className="row d-flex justify-content-center">
                                 <div className="col-auto">
                                     <p className="pt-2">
