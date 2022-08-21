@@ -31,5 +31,5 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: build # The folder the action should deploy.
+        folder: ./ambition-lane-lp/build # The folder the action should deploy.
         branch: gh-pages
