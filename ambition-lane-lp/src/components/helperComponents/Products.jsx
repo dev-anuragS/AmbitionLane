@@ -1,5 +1,4 @@
 import React from 'react'
-import aboutWhy from '../images/aboutWhy.jpg'
 import image1 from '../images/image1.jpg'
 import '../css/CarouselCSS.css'
 
