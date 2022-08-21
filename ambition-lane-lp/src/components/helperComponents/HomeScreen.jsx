@@ -10,7 +10,7 @@ const HomeScreen = () => {
                     <p id="HomeScreenContent">
                         <span id='moto'>Get Your Dream Job</span><br/>
                     </p>
-                    <button id='homeScreenBtn'>Login</button>
+                    {/* <button id='homeScreenBtn'>Login</button> */}
                 </div>
                 <img src={aboutWhy} id='HomeScreenImg' alt="Not Visible" />
             </div>
