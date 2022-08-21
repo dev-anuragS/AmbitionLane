@@ -6,7 +6,7 @@ import Products from './helperComponents/Products'
 const service = () => {
     return (
         <div className="bodyContainer">
-            <Carousel/>
+            {/* <Carousel/> */}
             <Testimonials/>
             <Products/>
         </div>
