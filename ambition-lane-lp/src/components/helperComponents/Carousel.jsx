@@ -1,5 +1,6 @@
 import React from 'react'
 import aboutWhy from '../images/aboutWhy.jpg'
+import image1 from '../images/image1.jpg'
 import '../css/CarouselCSS.css'
 
 const Carousel = () => {
@@ -15,21 +16,21 @@ const Carousel = () => {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className='carouselImg' src={aboutWhy} alt="First slide" />
+                        <img className='carouselImg' src={image1} alt="First slide" />
                         <div className="carousel-caption d-md-block">
                             <h5>Item No 1</h5>
                             <p>Desc No 1</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className='carouselImg' src={aboutWhy} alt="Second slide" />
+                        <img className='carouselImg' src={image1} alt="Second slide" />
                         <div className="carousel-caption d-md-block">
                             <h5>Item No 2</h5>
                             <p>Desc No 2</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className='carouselImg' src={aboutWhy} alt="Third slide" />
+                        <img className='carouselImg' src={image1} alt="Third slide" />
                         <div className="carousel-caption d-md-block">
                             <h5>Item No 3</h5>
                             <p>Desc No 3</p>

@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutWhy from '../images/aboutWhy.jpg'
+import image2 from '../images/image2.jpg'
 import '../css/WhyUsCSS.css'
 
 const WhyUs = () => {
@@ -22,7 +22,7 @@ const WhyUs = () => {
                         •100% Job Assistance<br />
                     </p>
                 </div>
-                <img src={aboutWhy} id='aboutWhyImg' alt="Not Visible" />
+                <img src={image2} id='aboutWhyImg' alt="Not Visible" />
             </div>
         </>
     )
