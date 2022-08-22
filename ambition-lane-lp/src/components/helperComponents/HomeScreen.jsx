@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutWhy from '../images/aboutWhy.jpg'
+import homeScreen from '../images/homeScreen.jpg'
 import '../css/HomeScreenCSS.css'
 const HomeScreen = () => {
     return (
@@ -12,7 +12,7 @@ const HomeScreen = () => {
                     </p>
                     {/* <button id='homeScreenBtn'>Login</button> */}
                 </div>
-                <img src={aboutWhy} id='HomeScreenImg' alt="Not Visible" />
+                <img src={homeScreen} id='HomeScreenImg' alt="Not Visible" />
             </div>
         </>
     )
