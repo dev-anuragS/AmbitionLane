@@ -17,22 +17,22 @@ const Products = () => {
                     <div className="carousel-item active">
                         <img className='carouselImg' src={image1} alt="First slide" />
                         <div className="carousel-caption d-md-block">
-                            <h5>Item No 1</h5>
-                            <p>Desc No 1</p>
+                            <h5>Text Resume</h5>
+                            <p>Rs 1800</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img className='carouselImg' src={image1} alt="Second slide" />
                         <div className="carousel-caption d-md-block">
-                            <h5>Item No 2</h5>
-                            <p>Desc No 2</p>
+                            <h5>Visual Resume</h5>
+                            <p>Rs 3000</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img className='carouselImg' src={image1} alt="Third slide" />
                         <div className="carousel-caption d-md-block">
-                            <h5>Item No 3</h5>
-                            <p>Desc No 3</p>
+                            <h5>Cover Letter</h5>
+                            <p>Rs 1500</p>
                         </div>
                     </div>
                 </div>
