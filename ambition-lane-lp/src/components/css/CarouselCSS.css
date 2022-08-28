@@ -17,6 +17,12 @@
     }
 }
 
+.carousel-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .carouselImg{
     max-width:90vw;
 	max-height: 90vh;
