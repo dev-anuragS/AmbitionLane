@@ -17,10 +17,6 @@
     }
 }
 
-.sr-only .carousel-caption {
-	color: rgba(33,37,41,1);
-}
-
 .carouselImg{
     max-width:90vw;
 	max-height: 90vh;
