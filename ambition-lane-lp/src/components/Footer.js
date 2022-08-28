@@ -33,13 +33,13 @@ const Footer = () => {
                         ><i className="fab fa-google"></i
                         ></NavLink> */}
 
-                        <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
+                        <a className="btn btn-outline-light btn-floating m-1 footLink" href="#!" role="button"
                         ><i className="fab fa-instagram"></i
-                        ></NavLink>
+                        ></a>
 
-                        <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="https://in.linkedin.com/in/ambition-lane" role="button"
+                        <a className="btn btn-outline-light btn-floating m-1 footLink" href="https://in.linkedin.com/in/ambition-lane" role="button"
                         ><i className="fab fa-linkedin-in"></i
-                        ></NavLink>
+                        ></a>
 
                         {/* <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
                         ><i className="fab fa-github"></i
