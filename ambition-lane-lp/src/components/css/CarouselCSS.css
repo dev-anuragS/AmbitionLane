@@ -18,9 +18,9 @@
 }
 
 .d-md-block {
+	background-color: rgba(255,255,255,.3);
     color: rgba(33,37,41,1)!important;
 	font-weight: 500!important;
-	text-shadow: 5px 5px solid rgba(33,37,41,1)!important;
 }
 
 .carousel-caption .carousel-control-next .carousel-control-next .carousel-control-prev-icon .carousel-control-next-icon .sr-only{
