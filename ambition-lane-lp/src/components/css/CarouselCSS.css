@@ -17,6 +17,13 @@
     }
 }
 
+.d-md-block {
+    color: black!important;
+	background-color: black!important;
+	text-shadow: 5px solid red;
+	box-shadow:5px solid yellow;
+}
+
 .carousel-caption .carousel-control-next .carousel-control-next .carousel-control-prev-icon .carousel-control-next-icon .sr-only{
 	background-color: rgba(33,37,41,1)!important;
 	box-shadow: 5px 5px solid black!important;
