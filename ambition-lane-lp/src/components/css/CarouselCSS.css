@@ -17,6 +17,10 @@
     }
 }
 
+.carousel-caption .carousel-control-next {
+	color: rgba(33,37,41,1)!important;
+}
+
 .carouselImg{
     max-width:90vw;
 	max-height: 90vh;
