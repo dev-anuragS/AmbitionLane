@@ -18,8 +18,7 @@
 }
 
 .d-md-block {
-    color: black!important;
-	background-color: black!important;
+    color: rgba(33,37,41,1)!important;
 	text-shadow: 5px solid red;
 	box-shadow:5px solid yellow;
 }
