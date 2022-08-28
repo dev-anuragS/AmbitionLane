@@ -21,29 +21,29 @@ const Footer = () => {
             <footer className="bg-dark text-center text-white">
                 <div className="container p-4">
                     <section className="mb-4">
-                        <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
+                        {/* <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="" role="button"
                         ><i className="fab fa-facebook-f"></i
-                        ></NavLink>
+                        ></NavLink> */}
 
-                        <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
+                        {/* <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
                         ><i className="fab fa-twitter"></i
-                        ></NavLink>
+                        ></NavLink> */}
 
-                        <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
+                        {/* <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
                         ><i className="fab fa-google"></i
-                        ></NavLink>
+                        ></NavLink> */}
 
                         <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
                         ><i className="fab fa-instagram"></i
                         ></NavLink>
 
-                        <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
+                        <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="https://in.linkedin.com/in/ambition-lane" role="button"
                         ><i className="fab fa-linkedin-in"></i
                         ></NavLink>
 
-                        <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
+                        {/* <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
                         ><i className="fab fa-github"></i
-                        ></NavLink>
+                        ></NavLink> */}
                     </section>
                     <section className="">
                         <form action="" onSubmit={submitForm}>
