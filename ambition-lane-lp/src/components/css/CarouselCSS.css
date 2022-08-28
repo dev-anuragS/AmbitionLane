@@ -17,8 +17,8 @@
     }
 }
 
-.carousel-caption .carousel-control-next {
-	color: rgba(33,37,41,1)!important;
+.carousel-caption .carousel-control-next .carousel-control-next .carousel-control-prev-icon .carousel-control-next-icon .sr-only{
+	background-color: rgba(33,37,41,1)!important;
 }
 
 .carouselImg{
