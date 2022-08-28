@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
 import './css/FooterCSS.css'
 
 const Footer = () => {
@@ -21,17 +20,6 @@ const Footer = () => {
             <footer className="bg-dark text-center text-white">
                 <div className="container p-4">
                     <section className="mb-4">
-                        {/* <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="" role="button"
-                        ><i className="fab fa-facebook-f"></i
-                        ></NavLink> */}
-
-                        {/* <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
-                        ><i className="fab fa-twitter"></i
-                        ></NavLink> */}
-
-                        {/* <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
-                        ><i className="fab fa-google"></i
-                        ></NavLink> */}
 
                         <a className="btn btn-outline-light btn-floating m-1 footLink" href="#!" role="button"
                         ><i className="fab fa-instagram"></i
@@ -41,9 +29,6 @@ const Footer = () => {
                         ><i className="fab fa-linkedin-in"></i
                         ></a>
 
-                        {/* <NavLink className="btn btn-outline-light btn-floating m-1 footLink" to="#!" role="button"
-                        ><i className="fab fa-github"></i
-                        ></NavLink> */}
                     </section>
                     <section className="">
                         <form action="" onSubmit={submitForm}>
