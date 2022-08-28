@@ -1,5 +1,10 @@
 import React from 'react'
-import image1 from '../images/image1.jpg'
+import text from '../images/text.jpg'
+import visual from '../images/visual.jpg'
+import cover from '../images/cover.jpg'
+import info from '../images/info.jpg'
+import linkedin from '../images/linkedin.jpg'
+import mock from '../images/mock.jpg'
 import '../css/CarouselCSS.css'
 
 const Products = () => {
@@ -18,42 +23,42 @@ const Products = () => {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className='carouselImg' src={image1} alt="First slide" />
+                        <img className='carouselImg' src={text} alt="First slide" />
                         <div className="carousel-caption d-md-block">
                             <h5>Text Resume</h5>
                             <p>Rs 1999</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className='carouselImg' src={image1} alt="Second slide" />
+                        <img className='carouselImg' src={visual} alt="Second slide" />
                         <div className="carousel-caption d-md-block">
                             <h5>Visual Resume</h5>
                             <p>Rs 2999</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className='carouselImg' src={image1} alt="Third slide" />
+                        <img className='carouselImg' src={cover} alt="Third slide" />
                         <div className="carousel-caption d-md-block">
                             <h5>Cover Letter</h5>
                             <p>Rs 999</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className='carouselImg' src={image1} alt="Fourth slide" />
+                        <img className='carouselImg' src={info} alt="Fourth slide" />
                         <div className="carousel-caption d-md-block">
                             <h5>Infographic Resume</h5>
                             <p>Rs 4999</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className='carouselImg' src={image1} alt="Fifth slide" />
+                        <img className='carouselImg' src={linkedin} alt="Fifth slide" />
                         <div className="carousel-caption d-md-block">
                             <h5>LinkedIn Profile</h5>
                             <p>Rs 1499</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img className='carouselImg' src={image1} alt="Sixth slide" />
+                        <img className='carouselImg' src={mock} alt="Sixth slide" />
                         <div className="carousel-caption d-md-block">
                             <h5>Mock Interview</h5>
                             <p>Rs 999</p>
