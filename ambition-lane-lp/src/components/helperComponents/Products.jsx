@@ -12,27 +12,51 @@ const Products = () => {
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img className='carouselImg' src={image1} alt="First slide" />
                         <div className="carousel-caption d-md-block">
                             <h5>Text Resume</h5>
-                            <p>Rs 1800</p>
+                            <p>Rs 1999</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img className='carouselImg' src={image1} alt="Second slide" />
                         <div className="carousel-caption d-md-block">
                             <h5>Visual Resume</h5>
-                            <p>Rs 3000</p>
+                            <p>Rs 2999</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img className='carouselImg' src={image1} alt="Third slide" />
                         <div className="carousel-caption d-md-block">
                             <h5>Cover Letter</h5>
-                            <p>Rs 1500</p>
+                            <p>Rs 999</p>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <img className='carouselImg' src={image1} alt="Fourth slide" />
+                        <div className="carousel-caption d-md-block">
+                            <h5>Infographic Resume</h5>
+                            <p>Rs 4999</p>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <img className='carouselImg' src={image1} alt="Fifth slide" />
+                        <div className="carousel-caption d-md-block">
+                            <h5>LinkedIn Profile</h5>
+                            <p>Rs 1499</p>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <img className='carouselImg' src={image1} alt="Sixth slide" />
+                        <div className="carousel-caption d-md-block">
+                            <h5>Mock Interview</h5>
+                            <p>Rs 999</p>
                         </div>
                     </div>
                 </div>
