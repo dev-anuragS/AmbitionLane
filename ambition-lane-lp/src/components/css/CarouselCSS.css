@@ -17,10 +17,8 @@
     }
 }
 
-.carousel-item {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.sr-only .carousel-caption {
+	color: rgba(33,37,41,1);
 }
 
 .carouselImg{
